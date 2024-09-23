@@ -1,0 +1,88 @@
+body
+{
+    background-image: url("image1.jpg");
+
+    font-family: sans-serif;
+}
+
+
+#header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #f0f0f0; 
+}
+
+
+
+
+
+
+
+
+
+
+
+img 
+{
+    border-radius: 50%;
+}
+
+a:hover
+{
+  color:red;
+}
+h1
+{
+    width: 300px; 
+    margin: 30px auto; 
+}
+
+#headshot {
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+.assign
+{
+    table 
+    {
+        width: 250px;
+        margin:30px auto;
+        border-collapse: collapse;
+    }
+    
+    tr:nth-child(even) 
+    {
+        background-color: #f2f2f2; 
+    }
+    
+    tr:nth-child(odd) 
+    {
+        background-color: #ffffff; 
+    }
+    
+    td 
+    {
+        padding: 8px;
+        text-align: center;
+    }
+    
+}
+
+#hobbieweb
+{
+    margin: 50px;
+}
+
+#Education
+{
+    margin: 50px;
+}
+
+#favQuote
+{
+    margin: 50px;
+}
+  
